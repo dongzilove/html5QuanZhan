@@ -1,0 +1,144 @@
+@charset "utf-8";
+
+.dede_pages {
+
+	text-align: center;
+
+	display: block;
+
+	width: 100%;
+
+	max-width: 800px;
+
+	margin: 0px auto 20px;
+
+	overflow: hidden;
+
+}
+
+.dede_pages ul {
+
+	padding: 9px 0px 9px 16px;
+
+	text-align: center;
+
+}
+
+.dede_pages ul li {
+
+	float: left;
+
+	font-family: Tahoma;
+
+	line-height: 28px;
+
+	margin-right: 6px;
+
+	padding: 0px 8px;
+
+	list-style: none;
+
+	border: 1px solid #ccc;
+
+}
+
+.dede_pages ul li select {
+
+	height: 28px;
+
+	width: 50px;
+
+	line-height: 28px;
+
+	text-align: center;
+
+}
+
+.dede_pages ul li a {
+
+	float: left;
+
+	color: #555;
+
+	display: block;
+
+	padding: 0px 8px;
+
+	line-height: 28px;
+
+}
+
+.dede_pages ul li a:hover {
+
+	color: #690;
+
+	text-decoration: none;
+
+	line-height: 28px;
+
+	padding: 0px 8px;
+
+}
+
+.dede_pages ul li.thisclass, .dede_pages ul li.thisclass a, .pagebox ul li.thisclass a:hover {
+
+	background-color: #F8F8F8;
+
+	padding: 0px 8px 0px;
+
+	font-weight: bold;
+
+}
+
+.dede_pages .pageinfo {
+
+	line-height: 28px;
+
+	padding: 12px 10px 12px 16px;
+
+	color: #999;
+
+}
+
+.dede_pages .pageinfo strong {
+
+	color: #555;
+
+	font-weight: normal;
+
+	margin: 0px 2px;
+
+}
+
+/* 中英文切换 */
+
+.language {
+
+	position: absolute;
+
+	right: 10%;
+
+	top: 25px;
+
+	font-size: 12px;
+
+	z-index: 100;
+
+}
+
+.language a {
+
+	margin-left: 15px;
+
+}
+
+.language .language-ico {
+
+	padding: 0 0 0 20px;
+
+	background-repeat: no-repeat;
+
+	background-position: left center;
+
+}
+

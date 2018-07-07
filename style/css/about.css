@@ -1,0 +1,1184 @@
+@charset "gb2312";
+
+.main_about {
+
+	width: 100%;
+
+	overflow: hidden;
+
+	padding-top: 10px;
+
+}
+
+.who {
+
+	width: 995px;
+
+	margin: 0px auto;
+
+	overflow: hidden;
+
+	text-align: left;
+
+}
+
+.who h1 {
+
+	font-size: 28px;
+
+	color: #333;
+
+	font-weight: normal;
+
+	text-align: center;
+
+	margin-top: 50px;
+
+}
+
+.who p {
+
+	margin: 0px auto;
+
+	overflow: hidden;
+
+	line-height: 30px;
+
+	font-size: 14px;
+
+	color: #333;
+
+	margin-top: 30px;
+
+}
+
+.main_about .bottom {
+
+	width: 1180px;
+
+	margin: 70px auto 90px auto;
+
+	overflow: hidden;
+
+}
+
+.main_about .bottom dl {
+
+	width: 31%;
+
+	margin: 0 1.1%;
+
+	float: left;
+
+	text-align: center;
+
+}
+
+.main_about .bottom dl dd {
+
+	margin-bottom: 10px;
+
+}
+
+.main_about .bottom dl dt h2 {
+
+	font-size: 18px;
+
+	line-height: 32px;
+
+	color: #333;
+
+	font-weight: normal;
+
+}
+
+.project_gray {
+
+	background: #f6f6f6;
+
+	overflow: hidden;
+
+	padding-bottom: 60px;
+
+}
+
+.project {
+
+	width: 1230px;
+
+	overflow: hidden;
+
+	margin: 60px auto 0px auto;
+
+}
+
+.project .about_title {
+
+	width: 100%;
+
+	text-align: center;
+
+}
+
+.project .about_title h1 {
+
+	font-size: 28px;
+
+	color: #333;
+
+	line-height: 35px;
+
+	margin: 15px 0;
+
+	font-weight: normal;
+
+}
+
+.project .about_title span {
+
+	font-size: 16px;
+
+	color: #666;
+
+}
+
+.project_con {
+
+	width: 100%;
+
+	overflow: hidden;
+
+	clear: both;
+
+	margin: 50px auto;
+
+}
+
+.project_con dl {
+
+	width: 380px;
+
+	float: left;
+
+	font-size: 14px;
+
+	margin: 15px;
+
+	overflow: hidden;
+
+	color: #333;
+
+	line-height: 26px;
+
+}
+
+.project_con dl dd {
+
+	height: 240px;
+
+	margin-bottom: 12px;
+
+	padding: 1px;
+
+	transition: box-shadow 218ms;
+
+}
+
+.project_con dl dd:hover {
+
+	background-color: #ccc;
+
+	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12);
+
+}
+
+.project_con dl dd a {
+
+	display: block;
+
+	width: 100%;
+
+	height: 100%;
+
+}
+
+.project_con dl dt a {
+
+	margin-right: 25px;
+
+	display: inline-block;
+
+	line-height: 24px;
+
+	color: #333;
+
+}
+
+.project_con dl dt a:hover {
+
+	color: #24b727;
+
+}
+
+.team_box {
+
+	padding-top: 80px;
+
+	overflow: hidden;
+
+}
+
+.team {
+
+	width: 1200px;
+
+	margin: 0px auto;
+
+	lear: both;
+
+	overflow: hidden;
+
+}
+
+.team h1 {
+
+	text-align: center;
+
+	font-size: 28px;
+
+	line-height: 30px;
+
+	margin-bottom: 30px;
+
+	color: #333;
+
+	font-weight: normal;
+
+}
+
+.team .top {
+
+	width: 995px;
+
+	margin: 0 auto;
+
+}
+
+.team .top p {
+
+	font-size: 14px;
+
+	line-height: 28px;
+
+	text-align: left;
+
+}
+
+.team_con {
+
+	width: 100%;
+
+	clear: both;
+
+	overflow: hidden;
+
+	margin: 50px auto;
+
+}
+
+.team_con .left_cor {
+
+	width: 66.6%;
+
+	float: left;
+
+}
+
+.team_con .left_cor .boxgrid {
+
+	width: 50%;
+
+	height: 220px;
+
+	border: 1.5px solid #FFF;
+
+	float: left;
+
+	overflow: hidden;
+
+	position: relative;
+
+	box-sizing: border-box;
+
+	-moz-box-sizing: border-box;
+
+	-webkit-box-sizing: border-box;
+
+	background-position: center top;
+
+}
+
+.team_con .left_cor .boxgrid img {
+
+	position: absolute;
+
+	top: 0;
+
+	left: 0;
+
+	border: 0;
+
+}
+
+.team_con .left_cor .boxgrid .cover {
+
+	position: absolute;
+
+	background: #000;
+
+	height: 220px;
+
+	width: 100%;
+
+	opacity: .7; /* For IE 5-7 */
+
+filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);/* For IE 8 */
+
+	-MS-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+
+}
+
+.team_con .left_cor .boxgrid .cover {
+
+	top: 220px;
+
+	left: 0;
+
+}
+
+.team_con .left_cor .boxgrid .cover h3 {
+
+	font-size: 14px;
+
+	color: #FFF;
+
+	line-height: 40px;
+
+	text-align: left;
+
+	margin-left: 15px;
+
+}
+
+.team_con .right_cor {
+
+	width: 33.3%;
+
+	float: right;
+
+	margin-top: 1px;
+
+}
+
+.team_con .right_cor .boxgrid {
+
+	width: 100%;
+
+	height: 438px;
+
+	overflow: hidden;
+
+	position: relative;
+
+	background-position: center top;
+
+}
+
+.team_con .right_cor .boxgrid img {
+
+	position: absolute;
+
+	top: 0;
+
+	left: 0;
+
+	border: 0;
+
+}
+
+.team_con .right_cor .boxgrid .cover1 {
+
+	position: absolute;
+
+	background: #000;
+
+	height: 438px;
+
+	width: 100%;
+
+	opacity: .7; /* For IE 5-7 */
+
+filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);/* For IE 8 */
+
+	-MS-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+
+}
+
+.team_con .right_cor .boxgrid .cover1 {
+
+	top: 438px;
+
+	left: 0;
+
+}
+
+.team_con .right_cor .boxgrid .cover1 h3 {
+
+	font-size: 14px;
+
+	color: #FFF;
+
+	line-height: 40px;
+
+	text-align: left;
+
+	margin-left: 15px;
+
+}
+
+/*-人才招聘-*/
+
+.week_job {
+
+	width: 1140px;
+
+	margin: 0 auto;
+
+}
+
+.week_job .top {
+
+	overflow: hidden;
+
+	text-align: center;
+
+	color: #666;
+
+	font-size: 16px;
+
+}
+
+.week_job .top h1 {
+
+	font-size: 28px;
+
+	line-height: 35px;
+
+	color: #333;
+
+	margin-bottom: 15px;
+
+	margin-top: 75px;
+
+	font-weight: normal;
+
+}
+
+.week_job .con {
+
+	overflow: hidden;
+
+	margin-top: 50px;
+
+}
+
+.week_job .list {
+
+	float: left;
+
+	width: 315px;
+
+	color: #333;
+
+	line-height: 26px;
+
+	margin-right: 97px;
+
+}
+
+.week_job .list.last {
+
+	margin: 0;
+
+}
+
+.week_job .list h2 {
+
+	font-size: 20px;
+
+	margin-top: 25px;
+
+	font-weight: normal;
+
+}
+
+.week_job .list strong {
+
+	font-size: 14px;
+
+	display: inline-block;
+
+	margin-top: 20px;
+
+}
+
+.week_job .list ul {
+
+	overflow: hidden;
+
+}
+
+.week_job .bottom {
+
+	text-align: center;
+
+	clear: both;
+
+	overflow: hidden;
+
+	margin: 65px auto;
+
+	font-size: 20px;
+
+}
+
+.week_job .bottom a {
+
+	background: #ee302f;
+
+	color: #FFF;
+
+	font-size: 24px;
+
+	display: inline-block;
+
+	line-height: 50px;
+
+	padding: 0 40px;
+
+	margin-top: 15px;
+
+	-moz-transition: all 0.3s ease-in-out;
+
+	-webkit-transition: all 0.3s ease-in-out;
+
+	transition: all 0.3s ease-in-out;
+
+	border-radius: 2px;
+
+}
+
+.week_job .bottom a:hover {
+
+	background: #d90100;
+
+}
+
+.week_follow {
+
+	width: 100%;
+
+	border-top: 1px solid #e2e2e2;
+
+	padding-top: 80px;
+
+	text-align: center;
+
+}
+
+.week_follow_kd {
+
+	width: 1140px;
+
+	margin: 0 auto;
+
+}
+
+.week_follow h1 {
+
+	font-size: 28px;
+
+	color: #333;
+
+	line-height: 30px;
+
+	font-weight: normal;
+
+}
+
+.week_follow ul {
+
+	width: auto;
+
+	overflow: hidden;
+
+	margin: 30px auto 70px auto;
+
+}
+
+.week_follow ul li {
+
+	width: 120px;
+
+	display: inline-block;
+
+	margin: 0 10px;
+
+}
+
+/*-联系我们-*/
+
+.week_container {
+
+	margin: 0 auto;
+
+	padding: 0 12px;
+
+	max-width: 1164px;
+
+	min-width: 1024px;
+
+}
+
+.week_contact {
+
+	width: 100%;
+
+	min-width: 1024px;
+
+}
+
+.contact-ways {
+
+	overflow: hidden;
+
+}
+
+.contact-ways li {
+
+	float: left;
+
+	width: 33%;
+
+	height: 420px;
+
+	border-left: 1px solid #E9E9E9;
+
+}
+
+.contact-ways li:last-child {
+
+	border-right: 1px solid #E9E9E9;
+
+}
+
+.contact-ways li a, .contact-ways li a:hover {
+
+	display: block;
+
+	padding: 88px 0;
+
+	text-align: center;
+
+	text-decoration: none;
+
+}
+
+.contact-ways li h4 {
+
+	font-size: 16px;
+
+	color: #666;
+
+	line-height: 30px;
+
+	margin: 0;
+
+	font-weight: 100;
+
+}
+
+.contact-ways li p.cway-txt {
+
+	font-size: 30px;
+
+	line-height: 50px;
+
+	color: #121212;
+
+}
+
+.contact-ways li:hover p.cway-txt {
+
+	color: #90C42F;
+
+}
+
+.contact-ways li a i {
+
+	margin: 0 auto 20px;
+
+	display: block;
+
+	width: 128px;
+
+	height: 128px;
+
+	background-color: #f8f8f8;
+
+	border-radius: 64px;
+
+	transition: all 0.3s;
+
+	-webkit-transition: all 0.3s;
+
+	-moz-transition: all 0.3s;
+
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+
+}
+
+.contact-ways li a:hover i {
+
+	background-color: #90C42F;
+
+	transition: all 0.3s;
+
+	-webkit-transition: all 0.3s;
+
+	-moz-transition: all 0.3s;
+
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+
+}
+
+.contact-ways li a i.i-phone {
+
+	background-image: url(../images/icon_phone.png);
+
+	background-size: 128px;
+
+	background-repeat: no-repeat;
+
+	background-position: 0 0;
+
+}
+
+.contact-ways li a:hover i.i-phone {
+
+	background-position: 0 -128px;
+
+}
+
+.contact-ways li a i.i-qq {
+
+	background-image: url(../images/icon_qq.png);
+
+	background-size: 128px;
+
+	background-repeat: no-repeat;
+
+	background-position: 0 0;
+
+}
+
+.contact-ways li a:hover i.i-qq {
+
+	background-position: 0 -128px;
+
+}
+
+.contact-ways li a i.i-mail {
+
+	background-image: url(../images/icon_mail.png);
+
+	background-size: 128px;
+
+	background-repeat: no-repeat;
+
+	background-position: 0 0;
+
+}
+
+.contact-ways li a:hover i.i-mail {
+
+	background-position: 0 -128px;
+
+}
+
+.week_weixin {
+
+	background: url(../images/bg_weixin.jpg) no-repeat center;
+
+	background-size: cover;
+
+	background-attachment: fixed;
+
+	padding: 80px 0;
+
+}
+
+.week_weixin h3 {
+
+	margin: 0 auto;
+
+	font-size: 32px;
+
+	width: 60%;
+
+	line-height: 1.75;
+
+	text-align: center;
+
+	color: #FFF;
+
+	font-weight: normal;
+
+}
+
+.week_weixin p {
+
+	margin: 0 auto 20px;
+
+	font-size: 16px;
+
+	width: 80%;
+
+	line-height: 1.75;
+
+	text-align: center;
+
+	color: #eee;
+
+}
+
+.week_weixin-p img {
+
+	display: block;
+
+	margin: 0 auto;
+
+	width: 160px;
+
+	height: 160px;
+
+}
+
+.week_weixin p span {
+
+	display: inline-block;
+
+	margin: 0 20px;
+
+}
+
+.week_map {
+
+	position: relative;
+
+	height: 520px;
+
+	min-width: 1024px;
+
+	margin-bottom: -5px;
+
+}
+
+#allmap {
+
+	width: 100%;
+
+	height: 100%;
+
+	overflow: hidden;
+
+	margin: 0;
+
+}
+
+.mark-info {
+
+	position: absolute;
+
+	bottom: 0px;
+
+	left: 0;
+
+	width: 100%;
+
+	text-align: center;
+
+	padding: 25px 0;
+
+	background: url(../images/tmbg.png) repeat;
+
+	color: #FFF;
+
+}
+
+.mark-info h4 {
+
+	margin: 0;
+
+	line-height: 36px;
+
+	font-size: 26px;
+
+	font-weight: normal;
+
+}
+
+.mark-info p {
+
+	font-size: 16px;
+
+	line-height: 32px;
+
+}
+
+/*-发展历程-*/
+
+.wk_about_hty-box {
+
+	position: relative;
+
+	margin-top: 20px;
+
+}
+
+.wk_about_hty-box .slogan {
+
+	margin-bottom: 30px;
+
+	height: 50px;
+
+	line-height: 50px;
+
+	text-align: center;
+
+	font-size: 26px;
+
+	color: #b8b8b8;
+
+}
+
+.wk_about_hty {
+
+	width: 960px;
+
+	margin: 0 auto;
+
+	position: relative;
+
+	padding: 46px 0;
+
+}
+
+.wk_about_hty .line {
+
+	position: absolute;
+
+	top: 0;
+
+	left: 50%;
+
+	margin-left: -1px;
+
+	width: 3px;
+
+	height: 100%;
+
+	background-color: #d4d4d4;
+
+}
+
+.wk_about_hty .item {
+
+	position: relative;
+
+	height: 90px;
+
+}
+
+.wk_about_hty .item:before {
+
+	content: '';
+
+	position: absolute;
+
+	top: 0;
+
+	left: 50%;
+
+	margin-left: -7px;
+
+	width: 12px;
+
+	height: 12px;
+
+	border: 2px solid #90C42F;
+
+	background-color: #fff;
+
+	border-radius: 50%;
+
+}
+
+.wk_about_hty .item .desc {
+
+	position: absolute;
+
+	top: -18px;
+
+	left: 50%;
+
+	padding: 10px 20px;
+
+	margin-left: 38px;
+
+	width: 45%;
+
+	line-height: 30px;
+
+	background-color: #f9f9f9;
+
+	border: 1px solid #eae9e9;
+
+	border-radius: 4px;
+
+	font-size: 14px;
+
+	color: #666;
+
+}
+
+.wk_about_hty .item .desc .arrow {
+
+	position: absolute;
+
+	top: 15px;
+
+	left: -20px;
+
+	border-style: solid;
+
+	border-width: 9px 10px;
+
+	border-color: transparent #eae9e9 transparent transparent;
+
+}
+
+.wk_about_hty .item .desc .arrow:after {
+
+	content: '';
+
+	position: absolute;
+
+	top: -9px;
+
+	left: -8px;
+
+	border-style: solid;
+
+	border-width: 9px 10px;
+
+	border-color: transparent #f9f9f9 transparent transparent;
+
+}
+
+.wk_about_hty .item .date {
+
+	position: absolute;
+
+	top: -6px;
+
+	left: 50%;
+
+	margin-left: -110px;
+
+	width: 78px;
+
+	height: 26px;
+
+	line-height: 26px;
+
+	text-align: center;
+
+	font-size: 12px;
+
+	color: #fff;
+
+	background-color: #90C42F;
+
+}
+
+.wk_about_hty .item .date:after {
+
+	content: '';
+
+	position: absolute;
+
+	top: 9px;
+
+	right: -8px;
+
+	border-style: solid;
+
+	border-width: 5px 4px;
+
+	border-color: transparent transparent transparent #90C42F;
+
+}
+
+.wk_about_hty .item.odd .desc {
+
+	left: auto;
+
+	right: 50%;
+
+	margin: 0 36px 0 0;
+
+	text-align: right;
+
+}
+
+.wk_about_hty .item.odd .desc .arrow {
+
+	left: 100%;
+
+	border-color: transparent transparent transparent #eae9e9;
+
+}
+
+.wk_about_hty .item.odd .desc .arrow:after {
+
+	left: -12px;
+
+	border-color: transparent transparent transparent #f9f9f9;
+
+}
+
+.wk_about_hty .item.odd .date {
+
+	margin-left: 31px;
+
+}
+
+.wk_about_hty .item.odd .date:after {
+
+	right: 100%;
+
+	border-color: transparent #90C42F transparent transparent;
+
+}
+
